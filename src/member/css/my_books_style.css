@@ -1,0 +1,91 @@
+/*----------Form styles----------*/
+.cd-form {
+  width: 90%;
+  max-width: 1000px;
+  margin: 4em auto;
+  font-size: 1.3rem;
+  color: #94aab0;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cd-form::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.cd-form legend {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.cd-form legend {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.cd-form input[type="submit"] {
+  border: none;
+  background: #d75069;
+  border-radius: .25em;
+  padding: 16px 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.cd-form input[type="submit"]:focus {
+  outline: none;
+  background: #2b3e51;
+}
+
+.cd-form input[type="submit"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.cd-form .error-message, .cd-form .success-message{
+	display: none;
+}
+
+.cd-form .error-message p {
+  background: #e94b35;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: .25em;
+  padding: 16px;
+}
+
+.cd-form .success-message p {
+  background: #4caf50;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: .25em;
+  padding: 16px;
+}

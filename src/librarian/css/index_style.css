@@ -1,0 +1,16 @@
+/*----------Custom Icons----------*/
+.cd-form .icon input{
+  padding-left: 54px !important;
+}
+.cd-form .l-user {
+  background: url("../img/ic_book_author.svg") no-repeat 16px center;
+}
+.cd-form [required].l-user {
+  background: url("../img/ic_book_author.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form .l-pass {
+  background: url("../../member/img/ic_member_username.svg") no-repeat 16px center;
+}
+.cd-form [required].l-pass {
+  background: url("../../member/img/ic_member_pass.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}

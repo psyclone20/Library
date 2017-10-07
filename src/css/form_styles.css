@@ -1,0 +1,187 @@
+/*----------Form styles----------*/
+.cd-form {
+  width: 90%;
+  max-width: 600px;
+  margin: 4em auto;
+  font-size: 1.3rem;
+  color: #94aab0;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cd-form::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.cd-form legend {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border-bottom: 1px solid #ecf0f1;
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.cd-form div {
+  position: relative;
+  margin: 20px 0;
+}
+
+.cd-form input, .cd-form select {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #2b3e51;
+}
+
+.cd-form input[type="text"],
+.cd-form input[type="password"],
+.cd-form input[type="email"],
+.cd-form input[type="number"],
+.cd-form select,
+.cd-form legend {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.cd-form input[type="text"],
+.cd-form input[type="password"],
+.cd-form input[type="email"],
+.cd-form input[type="number"],
+.cd-form select {
+  padding: 12px;
+  border: 1px solid #cfd9db;
+  background-color: #ffffff;
+  border-radius: .25em;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.cd-form input[type="text"]:focus,
+.cd-form input[type="email"]:focus,
+.cd-form input[type="password"]:focus,
+.cd-form input[type="number"]:focus,
+.cd-form select:focus {
+  outline: none;
+  border-color: #d75069;
+  box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+}
+
+.cd-form .cd-select {
+  position: relative;
+}
+
+.cd-form .cd-select::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  right: 16px;
+  top: 50%;
+  margin-top: -8px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/ic_arrow.svg") no-repeat center center;
+  pointer-events: none;
+}
+
+.cd-form select {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.cd-form select::-ms-expand {
+  display: none;
+}
+
+.cd-form input[type="submit"] {
+  border: none;
+  background: #d75069;
+  border-radius: .25em;
+  padding: 16px 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.cd-form input[type="submit"]:focus {
+  outline: none;
+  background: #2b3e51;
+}
+
+.cd-form input[type="submit"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.cd-form [required] {
+  background: url("img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form .error-message {
+	display: none;
+}
+
+.cd-form .error-message p {
+  background: #e94b35;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: .25em;
+  padding: 16px;
+}
+
+.cd-form .success-message p {
+  background: #4caf50;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: .25em;
+  padding: 16px;
+}
+
+.cd-form .error-field {
+  border-color: #e94b35 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .cd-form div {
+    margin: 32px 0;
+  }
+  .cd-form legend + div {
+    margin-top: 20px;
+  }
+  .cd-form input[type="text"],
+  .cd-form input[type="password"],
+  .cd-form input[type="email"],
+  .cd-form input[type="number"],
+  .cd-form select {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+#allTheThings{
+	width: 90%;
+	max-width: 600px;
+	margin: 4em auto;
+	font-size: 1.3rem;
+	color: #94aab0;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#allTheThings input[type="button"] {
+	width: 100%;
+	border: none;
+	background: #d75069;
+	border-radius: .25em;
+	padding: 16px 20px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+	float: right;
+	cursor: pointer;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+#allTheThings input[type="button"]:focus {
+  outline: none;
+  background: #2b3e51;
+}
+
+#allTheThings input[type="button"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+a{
+	text-decoration: none;
+}

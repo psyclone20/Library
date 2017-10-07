@@ -1,0 +1,37 @@
+/*----------Custom Icons----------*/
+.cd-form .icon input, .cd-form .icon select{
+  padding-left: 54px !important;
+}
+.cd-form .b-isbn {
+  background: url("../img/ic_book_isbn.svg") no-repeat 16px center;
+}
+.cd-form [required].b-isbn {
+  background: url("../img/ic_book_isbn.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form .b-title {
+  background: url("../img/ic_book_title.svg") no-repeat 16px center;
+}
+.cd-form [required].b-title {
+  background: url("../img/ic_book_title.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form .b-author {
+  background: url("../img/ic_book_author.svg") no-repeat 16px center;
+}
+.cd-form [required].b-author {
+  background: url("../img/ic_book_author.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form .b-category {
+  background: url("../img/ic_book_category.svg") no-repeat 16px center;
+}
+.cd-form .b-price {
+  background: url("../img/ic_book_price.svg") no-repeat 16px center;
+}
+.cd-form [required].b-price {
+  background: url("../img/ic_book_price.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form .b-copies {
+  background: url("../img/ic_book_copies.svg") no-repeat 16px center;
+}
+.cd-form [required].b-copies {
+  background: url("../img/ic_book_copies.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}

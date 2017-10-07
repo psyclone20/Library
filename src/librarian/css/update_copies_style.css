@@ -1,0 +1,16 @@
+/*----------Custom Icons----------*/
+.cd-form .icon input{
+  padding-left: 54px !important;
+}
+.cd-form .b-isbn {
+  background: url("../img/ic_book_isbn.svg") no-repeat 16px center;
+}
+.cd-form [required].b-isbn {
+  background: url("../img/ic_book_isbn.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form .b-copies {
+  background: url("../img/ic_book_copies.svg") no-repeat 16px center;
+}
+.cd-form [required].b-copies {
+  background: url("../img/ic_book_copies.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
